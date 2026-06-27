@@ -32,8 +32,8 @@ for the client's licenses and region — settings and product behaviour change.*
 - [ ] Connectors restricted (Power Platform DLP) so data can't flow to unapproved services.
 
 ## 5. Build-time hygiene (your practice)
-- [ ] Build and test with **dummy/sample data**, never real client data (the
-      Copilot&Claude client required exactly this).
+- [ ] Build and test with **dummy / sample data**, never real client data —
+      regulated clients typically require this contractually.
 - [ ] No secrets in code or exports; use the tenant's secret store / connection refs.
 - [ ] Audit logging on for the solution's actions.
 
