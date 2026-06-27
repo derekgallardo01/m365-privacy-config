@@ -1,5 +1,7 @@
 # Microsoft 365 AI privacy & data-handling config
 
+[![CI](https://github.com/derekgallardo01/m365-privacy-config/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/m365-privacy-config/actions/workflows/ci.yml)
+
 A practical checklist for configuring Microsoft 365 and Copilot so that
 **client data stays in-tenant and is never used to train public AI models**
 — the assurance regulated and privacy-conscious clients need before they'll
