@@ -1,6 +1,6 @@
 # Microsoft 365 AI privacy & data-handling config
 
-[![CI](https://github.com/derekgallardo01/m365-privacy-config/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/m365-privacy-config/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](#)
+[![CI](https://github.com/derekgallardo01/m365-privacy-config/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/m365-privacy-config/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](#) [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/derekgallardo01/m365-privacy-config)
 
 **Docs:** [Getting started](docs/getting-started.md) · [Usage](docs/usage.md) · [Diagrams](docs/diagrams.md) · [FAQ](docs/faq.md)
 
