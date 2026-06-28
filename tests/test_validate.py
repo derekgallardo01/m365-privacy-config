@@ -12,10 +12,12 @@ def _abs(rel):
     return os.path.join(ROOT, rel)
 
 
-def test_example_checklist_is_fully_completed():
-    issues = validate.lint(_abs("examples/checklist-meridian-advisory.md"))
-    assert issues["placeholders"] == [], f"placeholders remain: {issues['placeholders'][:3]}"
-    assert issues["unchecked"] == [], f"unchecked items remain: {issues['unchecked'][:3]}"
+def test_example_checklists_are_fully_completed():
+    for name in ("examples/checklist-meridian-advisory.md",
+                 "examples/checklist-northwind-clinical.md"):
+        issues = validate.lint(_abs(name))
+        assert issues["placeholders"] == [], f"{name} placeholders remain: {issues['placeholders'][:3]}"
+        assert issues["unchecked"] == [], f"{name} unchecked items remain: {issues['unchecked'][:3]}"
 
 
 def test_blank_checklist_still_looks_like_a_checklist():
