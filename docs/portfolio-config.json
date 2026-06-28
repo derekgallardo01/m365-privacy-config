@@ -1,0 +1,24 @@
+{
+  "repo": "m365-privacy-config",
+  "title": "M365 AI Privacy & Data-Handling Config",
+  "tagline": "Configuration checklist so client data stays in-tenant and is never used to train public AI models.",
+  "kicker": "Compliance \u00b7 Privacy \u00b7 Engagement Kit",
+  "features": [
+    {
+      "label": "Coverage",
+      "value": "6-section checklist"
+    },
+    {
+      "label": "Examples",
+      "value": "Regulated + HIPAA worked"
+    },
+    {
+      "label": "Linter",
+      "value": "Placeholder + checkbox"
+    }
+  ],
+  "theme": {
+    "primary": "#047857",
+    "accent": "#059669"
+  }
+}
